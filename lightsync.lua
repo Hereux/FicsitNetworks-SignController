@@ -39,7 +39,7 @@ sign_list = {"Build_StandaloneWidgetSign_SmallVeryWide_C", "Build_StandaloneWidg
 "Build_StandaloneWidgetSign_Square_Tiny_C", "Build_StandaloneWidgetSign_Square_C", "Build_StandaloneWidgetSign_Small_C", "Build_StandaloneWidgetSign_SmallWide_C",
 "Build_StandaloneWidgetSign_Medium_C", "Build_StandaloneWidgetSign_Huge_C", "Build_StandaloneWidgetSign_Portrait_C"}
 
-lightcontrol_controlled = false
+lightcontrol_controlled = true
 UPDATE_TIME = 0.3								-- How many seconds the computer should wait between checking for updates.
 												-- (lower = faster, higher = slower. When fast it will use more cpu.)
 function tableContains(table, value)
